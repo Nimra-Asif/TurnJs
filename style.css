@@ -36,6 +36,7 @@ h1,p
 }
 
 #flipbook {
+  position: fixed;
   width: 100%;
   height: 100%;
 }
@@ -139,7 +140,7 @@ h1,p
 
 #flipbook .shadow, #flipbook.shadow {
   transition: box-shadow 0.5s;
-  box-shadow: 0 10px 20px #999;
+  box-shadow: 0 10px 20px black;
 }
 
 #flipbook .even {
@@ -365,12 +366,12 @@ h1,p
     font-size: 10px;
   }
   #flipbook .page p {
-    font-size: 7.7px;
+    font-size: 7.8px;
     padding-left: 25px;
   }
   .otherlanguages
   {
-    font-size: 8px !important;
+    font-size: 8.1px !important;
     padding-right: 25px !important;
     padding-left: 5px;
   }
@@ -411,26 +412,6 @@ h1,p
   }
 }
 
-@media (max-width: 420px) {
-  #flipbook .page small
-  {
-    font-size: 4px;
-  }
-  #flipbook .page p {
-    font-size: 7.2px;
-    padding-left: 20px;
-  }
-
-  .otherlanguages
-  {
-    font-size: 7.2px !important;
-    padding-right: 20px !important;
-    padding-left: 5px;
-  }
-  .page-numbers {
-    margin-bottom: 3px;
-  }
-} 
 @media (max-width: 399px) {
   #flipbook .page-content
   {
@@ -450,50 +431,23 @@ h1,p
     margin-bottom: 3px;
   }
 }
-@media (max-width: 389px) {
-  #flipbook .page-content
-  {
-    padding-top: 15px;
-  }
-  #flipbook .page p {
-    font-size: 6.9px;
-  }
-  .otherlanguages
-  {
-    font-size: 7px !important;
-    padding-right: 20px !important;
-    padding-top: 10px;
-    padding-left: 5px;
-  }
-  .page-numbers {
-    margin-bottom: 3px;
-  }
-}
-@media (max-width: 350px) {
+
+@media (max-width: 361px) {
   #flipbook .page-content
   {
     padding-top: 10px;
   }
   #flipbook .page p {
-    font-size: 6.1px;
+    font-size: 6.7px;
   }
   .otherlanguages
   {
-    font-size: 6.5px !important;
+    font-size: 6.6px !important;
     padding-right: 20px !important;
     padding-left: 5px;
   }
 }
-@media (max-width: 333px) {
-  #flipbook .page-content
-  {
-    padding-top: 10px;
-  }
-  #flipbook .page p {
-    font-size: 6.6px;
-  }
- 
-}
+
 @media (max-width: 327px) {
   #flipbook .page-content
   {
