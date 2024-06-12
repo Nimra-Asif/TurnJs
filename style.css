@@ -435,14 +435,14 @@ h1,p
 @media (max-width: 361px) {
   #flipbook .page-content
   {
-    padding-top: 10px;
+    padding-top: 6px;
   }
   #flipbook .page p {
-    font-size: 6px;
+    font-size: 5px;
   }
   .otherlanguages
   {
-    font-size: 6px !important;
+    font-size: 5px !important;
     padding-right: 20px !important;
     padding-left: 5px;
   }
@@ -454,11 +454,11 @@ h1,p
     padding-top: 8px;
   }
   #flipbook .page p {
-    font-size: 6.3px;
+    font-size: 4.5px;
   }
   .otherlanguages
   {
-    font-size: 6.8px !important;
+    font-size: 4.5px !important;
     padding-right: 20px !important;
     padding-left: 5px;
   }
