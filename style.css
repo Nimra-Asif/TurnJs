@@ -388,12 +388,12 @@ h1,p
     font-size: 9px;
   }
   #flipbook .page p {
-    font-size: 7.5px;
+    font-size: 6.7px;
     padding-left: 20px;
   }
   .otherlanguages
   {
-    font-size: 7.7px !important;
+    font-size: 6.9px !important;
     padding-right: 20px !important;
     padding-left: 5px;
   }
@@ -418,17 +418,31 @@ h1,p
     padding-top: 10px;
   }
   #flipbook .page p {
-    font-size: 7.2px;
+    font-size: 7px;
     padding-left: 20px;
   }
   .otherlanguages
   {
-    font-size: 7.2px !important;
+    font-size: 7px !important;
     padding-right: 20px !important;
     padding-left: 5px;
   }
   .page-numbers {
     margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  #flipbook .page p {
+    font-size: 6px;
+    padding-left: 20px;
+  }
+  .otherlanguages
+  {
+    font-size: 6px !important;
+    padding-right: 20px !important;
+    padding-left: 5px;
   }
 }
 
@@ -458,11 +472,11 @@ h1,p
     padding-top: 8px;
   }
   #flipbook .page p {
-    font-size: 4.5px;
+    font-size: 4.8px;
   }
   .otherlanguages
   {
-    font-size: 4.5px !important;
+    font-size: 4.8px !important;
     padding-right: 20px !important;
     padding-left: 5px;
   }
