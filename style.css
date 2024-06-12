@@ -433,9 +433,13 @@ h1,p
 }
 
 @media (max-width: 361px) {
+  #flipbook
+  {
+    height: auto;
+  }
   #flipbook .page-content
   {
-    padding-top: 5.8px;
+    padding-top: 10px;
   }
   #flipbook .page p {
     font-size: 5px;
